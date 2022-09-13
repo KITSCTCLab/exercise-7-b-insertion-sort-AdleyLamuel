@@ -1,7 +1,7 @@
 from typing import List
 
 def insertionSort(array) -> List[int]:
-  for i in range(1, size-1):
+  for i in range(1, List.length-1):
     v = List[i]
     j = i-1
     while j>=0 and List[j]>v:
