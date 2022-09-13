@@ -8,7 +8,6 @@ def insertionSort(array) -> List[int]:
       a[j+1] = a[j]
       j = j-1
     a[j+1] = v
-return a
 
 # data = [9, 5, 1, 4, 3]
 input_data = input()
