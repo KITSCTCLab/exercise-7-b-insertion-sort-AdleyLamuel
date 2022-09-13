@@ -1,6 +1,6 @@
 from typing import List
 
-def insertionSort(array) -> List[int]:
+def insertionSort(a) -> List[int]:
   for i in range(1, len(a)-1):
     v = a[i]
     j = i-1
