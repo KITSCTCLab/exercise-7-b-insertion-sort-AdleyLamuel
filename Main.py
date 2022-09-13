@@ -1,13 +1,14 @@
 from typing import List
 
-def insertionSort(array, size) -> List[int]:
-  for i in range(1, size-1):
+def insertionSort(array) -> List[int]:
+  for i in range(1, item-1):
     v = a[i]
     j = i-1
     while j>=0 and a[j]>v:
       a[j+1] = a[j]
       j = j-1
     a[j+1] = v
+return a
 
 # data = [9, 5, 1, 4, 3]
 input_data = input()
